@@ -299,16 +299,17 @@ margin-top: 180px;
 
 @media screen and (max-width: 576px){
 
-body {
+    body {
         padding-bottom: 0;
-        overflow-x: hidden; /* Prevent horizontal scroll */
-}
+        overflow-x: hidden; 
+    }
+
 .display-flex{
     flex-direction: column
 }
 
 .header-box {
-    margin-top: 350px; /* Give more space below nav */
+    margin-top: 350px; 
   }
 
   .features-details {
@@ -339,5 +340,10 @@ text-align: center;
 .facts{
     text-align: center;
 }
+
+.footer {
+        margin-bottom: 0;
+        
+    }
 
 }
