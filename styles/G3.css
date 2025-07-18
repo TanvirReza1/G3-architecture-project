@@ -77,7 +77,7 @@ ul{
     margin-top: 210px;
 }
 
-.nav, .banner{
+.nav, .banner , .love{
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -100,3 +100,124 @@ ul{
  width: 100%;;
 }
 
+
+.f-title ,.love-title{
+    font-size: 2.8rem;
+}
+
+
+
+.features-style{
+    color: #FF900E ;
+}
+
+.of-our{
+    font-weight: bold;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 93px;
+
+}
+
+img{
+    max-width: 100%;
+}
+
+.quick-list{
+    align-items: center;
+    justify-content: center;
+    gap: 73px;
+}
+
+
+
+.feature-subtilte{
+ max-width: 1082px;
+ height: auto;
+}
+
+.desktop{
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #131313;
+}
+
+.experience{
+    font-weight: 500;
+    font-size: 1.8rem ;
+}
+
+.bigger-font{
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.love{
+justify-content: center;
+align-items: center;
+gap: 140px;
+margin-top: 180px;
+
+}
+
+
+
+.mobile-container{
+    max-width: 586px;
+    height: auto;
+    margin-top: 30px;
+}
+
+.sizeBox{
+    margin-top: 30px ;
+    max-width: 586px;
+    margin-top: 20px ;
+}
+
+.love-title{
+    max-width: 425px;
+    height: auto;
+    border-left:5px solid #FF900E;
+    padding: 22px;
+    
+}
+
+.shape-btn{
+     margin-left: -92px;
+     margin-top: -77px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px){
+
+.display-flex{
+    flex-direction: column
+}
+
+.header-box {
+    margin-top: 350px; /* Give more space below nav */
+  }
+
+  .features-details {
+text-align: center;
+
+  }
+
+}
