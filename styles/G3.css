@@ -77,7 +77,7 @@ ul{
     margin-top: 210px;
 }
 
-.nav, .banner , .love{
+.nav, .banner , .love , .badges, .facts{
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -97,11 +97,11 @@ ul{
 }
 
 .resize{
- width: 100%;;
+width: 100%;
 }
 
 
-.f-title ,.love-title{
+.f-title ,.love-title , .num{
     font-size: 2.8rem;
 }
 
@@ -176,7 +176,7 @@ margin-top: 180px;
 }
 
 .sizeBox{
-    margin-top: 30px ;
+  
     max-width: 586px;
     margin-top: 20px ;
 }
@@ -194,6 +194,61 @@ margin-top: 180px;
      margin-top: -77px;
 }
 
+.facts{
+    margin-top: 130px;
+    margin-bottom: 25px;
+}
+
+.box-facts{
+    max-width:241.83px ;
+    max-height:241.83px ;
+    border: 1px solid #FF900E ;
+    padding: 70px 50px;
+    border-radius: 10px;
+    
+    
+}
+
+.badges-container{
+    display: flex;
+    gap: 125px ;
+    justify-content: center;
+    align-items: center;
+}
+
+.badges {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px; 
+}
+
+.box {
+    width: 169px;
+    height: 136px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+
+.facts img{
+   
+    width: 100%;
+    margin: 45px 98px 150px;
+}
+
+
+.fact-heading {
+    font-size: 2.8rem;
+    margin-top: 130px;
+    margin-bottom: 25px;
+   
+}
+.badges{
+    margin-bottom: 180px;
+}
 
 
 
@@ -219,5 +274,16 @@ margin-top: 180px;
 text-align: center;
 
   }
+
+  .shape-btn{
+    margin-left: 20px;
+  }
+.badges-container{
+    flex-direction: column;
+
+}
+
+
+
 
 }
