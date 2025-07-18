@@ -71,13 +71,16 @@ ul{
         font-size: 3rem;
 }
 
+img{
+    max-width: 100%;
+}
 
 .header-box{
     text-align: center;
     margin-top: 210px;
 }
 
-.nav, .banner , .love , .badges, .facts{
+.nav, .banner , .love , .badges, .facts,.sponosor-container,.footer{
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -101,7 +104,7 @@ width: 100%;
 }
 
 
-.f-title ,.love-title , .num{
+.f-title ,.love-title , .num {
     font-size: 2.8rem;
 }
 
@@ -252,9 +255,43 @@ margin-top: 180px;
 
 
 
+.sponsor{
+    
+    
+    max-width: 542px;
+    text-align: center;
+   
+    margin: 0 auto ;
+    margin-bottom:50px ;
+
+    
+}
+
+.logo{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.logo img{
+    filter: grayscale(100%)
+
+}
 
 
+.footer{
+    background-color: #FFF4E7;
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 215px;
+}
 
+
+.text{
+    font-size: 1.25rem;
+}
 
 
 
@@ -262,6 +299,10 @@ margin-top: 180px;
 
 @media screen and (max-width: 576px){
 
+body {
+        padding-bottom: 0;
+        overflow-x: hidden; /* Prevent horizontal scroll */
+}
 .display-flex{
     flex-direction: column
 }
@@ -283,7 +324,20 @@ text-align: center;
 
 }
 
+.logo{
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+     gap: 30px;  
+     
+}
 
-
+.features {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.facts{
+    text-align: center;
+}
 
 }
